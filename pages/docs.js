@@ -138,7 +138,7 @@ export default function Docs() {
 
     return (
         <div className={styles.container}>
-            <Head><title>LIPP - API | Documentation</title></Head>
+            <Head><title>Alwaysriky - API | Documentation</title></Head>
             <div className={styles.banner}><video autoPlay loop muted playsInline className={styles.bannerVideo} key="banner-video"><source src="/banner-video.mp4" type="video/mp4" /></video></div>
             <div className={styles.topBar}><div className={styles.searchWrapper}><input type="text" placeholder="Cari endpoint..." className={styles.searchInput} onChange={(e) => setSearch(e.target.value)} /></div><StatsDisplay stats={stats} /></div>
             <div className={styles.tabs}>{categories.map(cat => <button key={cat} onClick={() => setCategory(cat)} className={`${styles.tabButton} ${category === cat ? styles.activeTab : ''}`}>{cat}</button>)}</div>
