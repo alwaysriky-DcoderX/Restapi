@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps, router }) {
     <ThemeProvider>
       <div className="site-container">
         <header className="main-header">
-            <Link href="/" className="shiny-text">LIPP - API</Link>
+            <Link href="/" className="shiny-text">Alwaysriky - API</Link>
             <ThemeToggler />
         </header>
         <AnimatePresence mode="wait">
@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps, router }) {
           </motion.main>
         </AnimatePresence>
         <footer className="main-footer">
-          © 2025 - LippWangsaff
+          © 2025 - Alwaysriky-DcoderX
         </footer>
       </div>
     </ThemeProvider>
