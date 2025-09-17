@@ -28,11 +28,11 @@ export default function Home({ stats }) {
     return (
         <div className={styles.container}>
             <Head>
-                <title>LIPP - API | Welcome</title>
+                <title>Alwaysriky - API | Welcome</title>
             </Head>
 
             <div className={styles.content}>
-                <h1 className={`${styles.title} shiny-text`}>LIPP - API</h1>
+                <h1 className={`${styles.title} shiny-text`}>Alwaysriky - API</h1>
                 <p className={styles.description}>
                     Simple, fast, and elegant REST API for a variety of needs.
                     アリフ著
@@ -64,7 +64,7 @@ export default function Home({ stats }) {
                         <div className={styles.creatorAvatarWrapper}>
                             <Image 
                                 src="/profile.png"
-                                alt="LippWangsaff"
+                                alt="Alwaysriky"
                                 width={80}
                                 height={80}
                                 className={styles.creatorAvatar}
