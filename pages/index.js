@@ -70,8 +70,8 @@ export default function Home({ stats }) {
                                 className={styles.creatorAvatar}
                             />
                         </div>
-                        <h2 className={styles.creatorName}>LippWangsaff</h2>
-                        <p className={styles.creatorRole}>Prompt Engineer</p>
+                        <h2 className={styles.creatorName}>Alwaysriky-DcoderX</h2>
+                        <p className={styles.creatorRole}>Engineer & Coding</p>
                     </div>
                 </div>
             </div>
