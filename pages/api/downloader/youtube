@@ -1,6 +1,10 @@
-module.exports = function(app) {
+import axios from 'axios';
+import { incrementRequestCount } from '../../../lib/db';
+
+
+export default async function handler function(app) {
     const yts = require('yt-search');
-    app.get('/downloader/youtube', async (req, res) => {
+    app.get('/api/downloader/youtube', async (req, res) => {
         const { q } = req.query;
         if (!q) {
             return res.status(400).json({ status: false, error: 'Query is required' });
